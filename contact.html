@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="CHANGE-ME">
+    <meta name="description" content="CHANGE-ME">
+
+    <!-- Mobile Stuff -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="CHANGE-ME">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon.png">
+
+    <!-- Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="CHANGE-ME">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+    <!-- Windows 8 -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+
+    <title>Contact</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="menu">
+                    <div class="navbar-header">
+                        <button style="margin-top:45px;" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                        <a class="navbar-brand" href="#">
+                            <img src="images/food-logo.png">
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <div class="header-items">
+                            <ul class="nav navbar-nav">
+                                <li><a href="food.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="Services.html">Services</a></li>
+                                <li><a href="menu.html">Menus</a></li>
+                                <li class="active"><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <br>
+
+    <section id="reservation-res">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <div class="cover">
+                        <div class="form-heading">
+                            <h2 class="text-center">Book A Table</h2>
+                        </div>
+                        <form>
+                            <div class="form-group">
+                                <label><i class="fa fa-calendar"></i>  Date</label>
+                                <input type="date" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fa fa-clock-o"></i>  From Time</label>
+                                <input type="time" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fa fa-clock-o"></i>  To Time</label>
+                                <input type="time" class="form-control">
+                            </div>
+                            <div class="select-option">
+                                <label><i class="fa fa-users"></i>  Number Of Person</label>
+                                <select class="form-control">
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                                <option value="4">Four</option>
+                                <option value="5">Five</option>
+                                <option value="6">Six</option>
+                            </select>
+                            </div>
+                        </form>
+                        <div class="info-heading">
+                            <h2 class="text-center">Contact Details</h2>
+                        </div>
+                        <form>
+                            <div class="form-group">
+                                <label><i class="fa fa-user"></i>  Name</label>
+                                <input type="text" class="form-control" placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="fa fa-envelope"></i>  Email</label>
+                                <input type="email" class="form-control" placeholder="Your email">
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fa fa-phone-square"></i>  Phone Number</label>
+                                <input type="number" class="form-control" placeholder="Your Phone Number">
+                            </div>
+                            <input type="submit" value="Submit" class="form-control">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-map">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <h2>Contact Us</h2>
+                    <p>Swing by for a cup of coffee, or leave us a message :</p>
+                </div>
+                <div class="col-xs-12 col-md-6 col-sm-6">
+                    <div class="google-map">
+                        <div id="map" style="width:100%;height:500px"></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-sm-6">
+                    <div class="contact-add">
+                        <form>
+                            <div class="form-group">
+                                <label for="fname">First Name</label>
+                                <input type="text" class="form-control" name="firstname" placeholder="Your name..">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="lname">Last Name</label>
+                                <input type="text" class="form-control" name="lastname" placeholder="Your last name..">
+                            </div>
+                            <div class="select-option">
+                                <label for="country">Country</label>
+                                <select class="form-control" name="country">
+                                    <option value="australia">Australia</option>
+                                    <option value="canada">Canada</option>
+                                    <option value="usa">USA</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <textarea class="form-control" name="subject" rows="6" cols="50" placeholder="Write something.."></textarea>
+                            </div>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-ms-4 col-md-4">
+                    <div class="our-address">
+                        <h2 class="address-hed">Food lounch</h2>
+                        <h4>Address : </h4>
+                        <h4>152 Fishponds Bristol</h4>
+                        <h4>Main street road-02. </h4>
+                        <h4>Telephone: 1-800-1233-321</h4>
+                        <h4>Email: mail@tplink.org</h4>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-ms-4 col-md-4">
+                    <div class="contact-form">
+                        <h2 class="contact-hed">Contact Us</h2>
+                        <div class="our-form">
+                            <form>
+                                <input type="name" placeholder="Your name" name="Name" class="form-control">
+                                <br>
+                                <input type="email" placeholder="email" name="Email" class="form-control">
+                                <br>
+                                <textarea rows="4" cols="20" placeholder="message" class="form-control"></textarea>
+                                <br>
+                                <button class="submit-btn">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-ms-4 col-md-4">
+                    <div class="news-form">
+                        <h2 class="news-hed">Newsletter</h2>
+                        <h3>Keep up with the latest resturant news and events.</h3>
+                        <h3>Enter your e-mail and subscribe to our newsleter.</h3>
+                        <div class="mail-form">
+                            <input type="text" placeholder="" name="mail" class="form-control">
+                            <button class="news-btn">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.navbar', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+    </script>
+
+    <script>
+        function initMap() {
+            var myCenter = new google.maps.LatLng(24.8949, 91.8687);
+            var mapCanvas = document.getElementById("map");
+            var mapOptions = {
+                center: myCenter,
+                zoom: 12
+            };
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            var marker = new google.maps.Marker({
+                position: myCenter
+            });
+            marker.setMap(map);
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeYqOtUnFXAA9P_ynAmxxe9eaRFdk3f98&callback=initMap" async defer></script>
+
+</body>
+
+</html>
